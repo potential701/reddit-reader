@@ -1,0 +1,25 @@
+{
+  "name": "reddit-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@deepgram/sdk": "^3.3.4",
+    "@supabase/storage-js": "^2.6.0",
+    "@supabase/supabase-js": "^2.43.4",
+    "audio-slicer": "^1.8.0",
+    "creatomate": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "json2video-sdk": "^2.0.4",
+    "openai": "^4.51.0",
+    "uuid": "^10.0.0"
+  }
+}
